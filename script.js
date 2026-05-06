@@ -19,7 +19,7 @@ const form = document.getElementById("formContato");
       valido = false;
     }
 
-    if (!email.indexOf("@", 0) == -1 || email === "" ) {
+    if (!email.indexOf("@") === -1 || email === "" ) {
       document.getElementById("erroEmail").textContent = "Email inválido";
       valido = false;
     }
