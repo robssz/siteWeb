@@ -82,10 +82,10 @@ strong {
 }
 
 .texto {
- position: absolute; /* Tira o texto do fluxo normal e coloca sobre a imagem */
-  top: 50%;           /* Move para o meio vertical */
-  left: 50%;          /* Move para o meio horizontal */
-  transform: translate(-50%, -50%); /* Centraliza perfeitamente o próprio elemento */
+ position: absolute; 
+  top: 50%;           
+  left: 50%;          
+  transform: translate(-50%, -50%); 
   
   text-align: center;
   color: white;
@@ -359,7 +359,7 @@ footer {
     color: #fff;
     padding: 20px 20px;
     text-align: center;
-    border-top: 4px solid #5a0a0a; /* Mantém o padrão dos seus cards */
+    border-top: 4px solid #5a0a0a; 
     margin-top: 60px;
 }
 
