@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Red Lantern Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Red Lantern Design</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">INÍCIO</a></li>
+                <li><a href="#portfolio">PORTFÓLIO</a></li>
+                <li><a href="empresa.html">NOSSOS SERVIÇOS</a></li>
+                <li><a href="#contato">ENTRE EM CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="conteiner">
+      <img src="img\logo5.jpg" alt="img1">
+      <div class="texto">
+        <h1>Projetando <span>identidades</span> atemporais</h1>
+      </div>
+    </section>
+
+    <main>
+
+        <article class="sobre">
+          <img src="https://imagedelivery.net/hj7jOXQ7wJCIf6fWb3Dukw/work--ajc-ads--ajc-ads-mobile-products/w=800,format=auto,quality=80" alt="sobre">
+          <div class="msg">
+
+            <p>O que fazemos?</p>
+            <p>
+                As pessoas estão mais conscientes do design do que nunca. Seja qual for o serviço ou produto, 
+                um contexto intangível envolve todas as interações. Empresas de sucesso percebem que oferecem 
+                experiências projetadas e investem os recursos necessários para aprimorá-las.
+            </p>
+            
+            <p>
+                Trabalhando com nossos clientes, enfatizamos um processo de pesquisa minucioso com ênfase no 
+                aprendizado e na escuta. Projetamos para pessoas reais. A Red Lantern cria sites simples, 
+                utilizáveis e atraentes, rápidos e acessíveis — todos utilizando padrões web modernos.
+            </p>
+            
+          </div>
+          
+        </article>
+
+    </main>
+
+<section id="servicos">
+    <h2 class="section-title">Diferenciais da Red Lantern </h2>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>Design Estratégico</h3>
+        <p>Cada projeto é pensado com foco em resultado, não apenas estética.</p>
+      </div>
+
+      <div class="card"
+         <h3><h3>Foco em UI/UX </h3>   <!--não mexe nessa linha senao vai parar de funcionar-->
+        <p> Experiência do usuário otimizada.</p>
+      </div>
+
+      <div class="card">
+        <h3>Identidade visual marcante</h3>
+        <p>Criação de marcas e interfaces com personalidade forte, gerando impacto visual + reconhecimento.</p>
+      </div>
+
+</section>
+
+    <div id="slogan">
+        <h1>Na Red Lantern Design, transformamos ideias em experiências digitais que convertem.</h1>
+        <p>Uma oferta completa, do início ao fim. Cada projeto inclui a estratégia, o conteúdo, o design e o desenvolvimento
+     necessários para lançar um ótimo site, além do crescimento contínuo e do suporte que o mantém funcionando por anos.</p>
+    </div>
+
+    <div id="choose">
+        <p>Por que nos escolher?</p>
+        <h1>Três razões pelas quais os clientes permanecem conosco</h1>
+    </div>
+
+<section id="motivo">
+
+        <div class="why">
+        <div class="icone">🏮</div>
+        <h3>+10 anos de experiência</h3>
+        <p> Nossa vasta experiência significa que provavelmente já resolvemos um desafio semelhante ao seu e sabemos 
+            como fazê-lo bem logo na primeira tentativa.</p>
+      </div>
+
+      <div class="why">
+        <div class="icone">🏮</div>
+        <h3>Uma pequena equipe de profissionais experientes.</h3>
+        <p>Sem repasses para profissionais juniores, sem aprendizado às custas do seu orçamento, sem camadas desnecessárias.
+            Cada projeto conta com especialistas seniores que realmente executam o trabalho, para que você converse diretamente com as pessoas que tomam as decisões.</p>
+      </div>
+
+      <div class="why">
+        <div class="icone">🏮</div>
+        <h3>Pontual. Sempre.</h3>  
+       <p> Prazos fixos, orçamentos fixos, sem faturas inesperadas, sem alterações no escopo. Nunca perdemos um prazo em mais de 10 anos.
+         Você sempre sabe exatamente em que pé está o projeto e quando ele será concluído.</p>
+      </div>
+
+
+</section>
+   
+    <section id="portfolio"> <!---essa section faz ligação com o link de portfolio-->
+    <h2 class="section-title">Portfólio</h2>
+
+    <div class="portfolio">
+      <div>
+        <img src="img\pexels-divinetechygirl-1181263.jpg" alt="proj1" width="300px" height="200px">
+      </div>
+      <div>
+        <img src="img\pexels-wecare-media-123880473-10020052.jpg" alt="proj2" width="300px" height="200px">
+      </div>
+      <a href="projetos.html">Conheça mais >></a>
+    </div>
+
+  </section>
+
+<section id="contato">  <!---essa section faz ligação com o link de entre em contato-->
+  <h2>Solicite um Orçamento</h2>
+
+  <form id="formContato">
+
+    <input type="text" id="nome" placeholder="Seu nome">
+    <span class="erro" id="erroNome"></span>
+
+    <input type="email" id="email" placeholder="Seu email">
+    <span class="erro" id="erroEmail"></span>
+
+    <label>Tipo de projeto:</label>
+    <select id="servico">
+      <option>Selecione</option>
+      <option>Website institucional</option>
+      <option>E-commerce</option>
+      <option>Landing Page</option>
+      <option>Redesign</option>
+      <option>Consultoria</option>
+      <option>Outro</option>
+    </select>
+
+    <label>Prazo desejado:</label>
+    <input type="date" id="prazo">
+ 
+    <textarea id="descricao" placeholder="Descreva seu projeto..."></textarea>
+    <span class="erro" id="erroDescricao"></span>
+
+    <button type="submit">Enviar</button>
+    <p id="sucesso"></p>
+
+  </form>
+</section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Entre em Contato</h3>
+            <ul class="contact-info">
+                <li>
+                    <strong>E-mail:</strong> 
+                    <a href="mailto:contato@exemplo.com.br">redlanterndesign@gmail.com</a>
+                </li>
+                <li>
+                    <strong>Celular:</strong> 
+                    <a href="https://wa.me/5591999999999" target="_blank">(91) 99999-9999</a>
+                </li>
+            </ul>
+        </div>
+        <p>©️2026 Red Lantern Design</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
